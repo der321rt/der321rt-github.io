@@ -1,0 +1,14 @@
+<!--pages/history/history.wxml-->
+<!-- <text>pages/history/history.wxml</text> -->
+<!-- <view class="wushujv" wx:for="">
+  暂无记录~
+</view> -->
+<view class="content" wx:for="{{histories}}">
+    <view class="index">{{index+1}}</view>
+    <view class="images">{{item.image}}</view>
+    <view class="text">{{item.text}}</view>
+    <view class="text">{{item.times}}</view>
+</view>
+
+<view class="delete" bindtap="delete" id="{{item.id}}">清空记录</view>
+

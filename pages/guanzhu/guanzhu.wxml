@@ -1,0 +1,19 @@
+<!--pages/guanzhu/guanzhu.wxml-->
+<view class="num1">官方介绍</view>
+<view class="num2">关注服务号可接收目标/习惯的闹钟提醒</view>
+<view class="divLine"></view>
+<view class="num3">私下介绍</view>
+<view class="num12">
+<view class="num4">追求有价值的人生</view>
+<view class="num5">也许会疲惫、会懈怠</view>
+<view class="num6">然而若某日，经意或不经意间</view>
+<view class="num7">当看见躺在公众号列表里的我</view>
+<view class="num8">你能想起曾在此记录的种种</view>
+<view class="num9">然后有所思、有所感</view>
+<view class="num10">然后对有价值的人生继续有所期待</view>
+<view class="num11">便是我生命中，被你关注的最佳意义</view>
+</view>
+<view class="divLine"></view>
+<view class="num13">点击按钮，回复“关注”获得指引</view>
+<button class="register-btn">前往关注</button>
+

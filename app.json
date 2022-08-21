@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/mubiao/mubiao",
+    "pages/mubiao-xinjian/mubiao-xinjian",
+
+    "pages/zhuanzhu/zhuangzhu",
+    "pages/startdown/startdown",
+    "pages/history/history",
+
+    "pages/index/index",
+    "pages/publish/publish",
+    "pages/auth/auth",
+
+    "pages/wode/wode",
+    "pages/rili/rili",
+    "pages/caozuo/caozuo",
+    "pages/yinsi/yinsi",
+    "pages/jianyi/jianyi",
+    "pages/anquan/anquan",
+    "pages/guanzhu/guanzhu",
+    "pages/gexing/gexing",
+    "pages/tiwen/tiwen"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "selectedColor": "#A2DCE3",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list":[{
+      "pagePath": "pages/mubiao/mubiao",
+      "text": "目标",
+      "iconPath": "images/目标1.png",
+      "selectedIconPath": "images/目标2.png"
+    },{
+      "pagePath": "pages/zhuanzhu/zhuangzhu",
+      "text": "专注",
+      "iconPath": "images/专注1.png",
+      "selectedIconPath": "images/专注2.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "通知",
+      "iconPath": "images/通知1.png",
+      "selectedIconPath": "images/通知2.png"
+    },{
+      "pagePath": "pages/wode/wode",
+      "text": "我的",
+      "iconPath": "images/我的.png",
+      "selectedIconPath": "images/我的 (1).png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

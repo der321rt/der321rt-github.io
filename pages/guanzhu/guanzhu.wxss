@@ -1,0 +1,65 @@
+pages/guanzhu/guanzhu.wxss
+.divLine{
+    background: #E0E3DA;
+    width: 100%;
+    height: 5rpx;
+    margin-top: 40rpx;
+   }
+   .register-btn{
+    border: 3px solid #141414; 
+    /* border-radius: 15px;   */
+    background-color: white;
+    margin-top: 20px;
+    }
+.register-btn::after{
+    border: none; 
+}
+.num1{
+    text-align: center;
+    font-weight: bold;
+}
+.num2{
+    text-align: center;
+    margin-top: 10rpx;
+}
+.num3{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30rpx;
+}
+.num4{
+    text-align: center;
+    margin-top: 10rpx;
+}
+.num5{
+    text-align: center;
+    margin-top: 10rpx;
+}
+.num6{
+    text-align: center;
+    margin-top: 10rpx;
+}
+.num7{
+    text-align: center;
+    margin-top: 10rpx;
+}
+.num8{
+    text-align: center;
+    margin-top: 10rpx;
+}
+.num9{
+    text-align: center;
+    margin-top: 10rpx;
+}
+.num10{
+    text-align: center;
+    margin-top: 10rpx;
+}
+.num11{
+    text-align: center;
+    margin-top: 10rpx;
+}
+.num13{
+    text-align: center;
+    margin-top: 30rpx;
+}

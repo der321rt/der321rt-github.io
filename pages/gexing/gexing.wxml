@@ -1,0 +1,46 @@
+<!--pages/gexing/gexing.wxml-->
+<view style="background-color:#faf9f9;height:600px;" class="num1">
+    <view style="padding-top: 10px;"></view>
+    <view style="display:flex;flex-direction: row;background-color: #ffffff;height:50px;line-height: 50px;">
+        <view style="font-weight: bold;" class="num2">打卡震动</view>
+        <view style="position: absolute;right:10px;">
+            <switch type="switch" checked />
+        </view>
+    </view>
+    <view style="height:1px;background-color: #f2f2f2;opacity:0.2"></view>
+    <view style="display: flex;flex-direction: row;background-color: #ffffff;height:50px;line-height: 50px;">
+        <view style="font-weight: bold;" class="num3">打卡音效</view>
+        <view style="position: absolute;right:10px">
+            <switch type="switch" />
+        </view>
+    </view>
+    <view style="height:1px;background-color: #f2f2f2;opacity: 0.2;"></view>
+    <view style="margin-top: 20px;"></view>
+    <view style="height:1px;background-color: #f2f2f2;opacity: 0.2;"></view>
+    <view style="display: flex;flex-direction: row;background-color: #ffffff;height:50px;line-height: 50px;">
+        <view style="font-weight:bold" class="num4">已完成目标划线</view>
+        <view style="position: absolute;right:10px;">
+            <switch type="checkbox" checked />
+        </view>
+    </view>
+    <view style="height:1px;background-color: #f2f2f2;opacity: 0.2;"></view>
+    <view style="height:1px;background-color: #f2f2f2;opacity: 0.2;"></view>
+    <view style="display: flex;flex-direction: row;background-color: #ffffff;height:50px;line-height: 50px;">
+        <view style="font-weight:bold" class="num5">目标列表中隐私状态图标</view>
+        <view style="position: absolute;right:10px;">
+            <switch type="checkbox" checked />
+        </view>
+        </view>
+        <view style="height:1px;background-color: #f2f2f2;opacity: 0.2;"></view>
+    <view style="margin-top: 20px;"></view>
+    <view style="height:1px;background-color: #f2f2f2;opacity: 0.2;"></view>
+    <view style="height:1px;background-color: #f2f2f2;opacity: 0.2;"></view>
+    <view style="display: flex;flex-direction: row;background-color: #ffffff;height:50px;line-height: 50px;">
+        <view style="font-weight:bold" class="num6">朋友圈照片更新</view>
+        <view style="position: absolute;right:10px;"> 
+            <switch type="checkbox" checked />
+        </view>
+    </view>
+    <view style="height:1px;background-color: #f2f2f2;opacity: 0.2;">
+    </view>
+</view>

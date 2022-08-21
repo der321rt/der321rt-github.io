@@ -1,0 +1,14 @@
+<!--pages/anquan/anquan.wxml-->
+<view class="num1">
+    <view class="num2">《隐私保护承诺》</view>
+    <view class="num3">你的手机号码仅用于登录、安全等操作</view>
+    <view class="num4">自律养成记确保其不会被泄露给第三方</view>    
+</view>
+<view class="divLine"></view>
+<view class="num5">《已绑定手机号码》</view>
+<view class="selfTwo" wx:for="{{feelList}}" wx:key="{{index}}">
+ 	<view class="right">{{item.feel}}</view>
+</view>
+<input type="number" placeholder="telephone number" name="haoma" value="{{haoma}}" class="num6" bindinput="addRname"></input>
+<button bindtap="submit" class="register-btn">提交</button>
+<!-- <button class="register-btn" form-type="submit" bindtap="resetSalaryBtnClick">绑定/解除</button> -->

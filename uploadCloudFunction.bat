@@ -1,0 +1,1 @@
+"D:\weixinxiaochengxu\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-7gvfbdsx591cc716 --n quickstartFunctions --r --project "E:\weixinxiaochengxu\zilv" --report_first && "D:\weixinxiaochengxu\微信web开发者工具\cli.bat" cloud functions deploy --e test-3gjvl80l73b9f2f2 --n quickstartFunctions --r --project "E:\weixinxiaochengxu\zilv" --report
